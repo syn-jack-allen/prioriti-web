@@ -2,6 +2,9 @@
 
 import { ITodo, ITodoId, ITodoUpdate } from './Todo';
 
+/**
+ * An interface for defining the interactions with the Prioriti API
+ */
 export interface ITodoProvider {
   /**
    * Gets all todo items.
